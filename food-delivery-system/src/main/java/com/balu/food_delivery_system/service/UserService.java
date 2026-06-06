@@ -89,6 +89,7 @@ public class UserService {
                 .phone(user.getPhone())
                 .role(user.getRole())
                 .token(token)
+                .tokenType("Bearer ")
                 .refreshToken(refreshToken.getToken())
                 .build();
     }
