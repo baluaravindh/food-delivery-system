@@ -36,7 +36,11 @@ public class RefreshTokenService {
 
         // Delete existing token if present
         refreshTokenRepository.findByUser(user)
-                .ifPresent(refreshTokenRepository::delete);
+//                .ifPresent(refreshTokenRepository::delete);
+                .ifPresent(token->{
+                    refreshTokenRepository.delete(token);
+                    refreshTokenRepository.flush();
+                });
 
         // Create new refresh token
         RefreshToken refreshToken = RefreshToken.builder()
