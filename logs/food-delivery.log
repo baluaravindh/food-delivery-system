@@ -1,24 +1,24 @@
-2026-06-09T00:33:44.703+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Starting FoodDeliverySystemApplication using Java 25.0.1 with PID 19916 (C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes started by gpbal in C:\Users\gpbal\Downloads\food-delivery-system)
-2026-06-09T00:33:44.716+05:30 DEBUG 19916 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Running with Spring Boot v3.5.14, Spring v6.2.18
-2026-06-09T00:33:44.718+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : No active profile set, falling back to 1 default profile: "default"
-2026-06-09T00:33:44.864+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2026-06-09T00:33:44.865+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2026-06-09T00:33:46.729+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-06-09T00:33:46.879+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 3 JPA repository interfaces.
-2026-06-09T00:33:48.372+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-06-09T00:33:48.402+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-06-09T00:33:48.403+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
-2026-06-09T00:33:48.512+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-06-09T00:33:48.513+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3648 ms
-2026-06-09T00:33:48.828+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-06-09T00:33:48.958+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
-2026-06-09T00:33:49.039+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-06-09T00:33:49.722+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-06-09T00:33:49.794+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-06-09T00:33:50.761+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e0d30bb
-2026-06-09T00:33:50.764+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-06-09T00:33:50.976+05:30  WARN 19916 --- [food-delivery-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2026-06-09T00:33:51.018+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-06-10T02:20:59.523+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Starting FoodDeliverySystemApplication using Java 25.0.1 with PID 9136 (C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes started by gpbal in C:\Users\gpbal\Downloads\food-delivery-system)
+2026-06-10T02:20:59.533+05:30 DEBUG 9136 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-06-10T02:20:59.535+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-06-10T02:20:59.617+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-10T02:20:59.617+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-10T02:21:03.733+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-10T02:21:03.836+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+2026-06-10T02:21:04.685+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-10T02:21:04.711+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-10T02:21:04.712+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-10T02:21:04.779+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-10T02:21:04.780+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5163 ms
+2026-06-10T02:21:04.970+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-10T02:21:05.060+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-10T02:21:05.127+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-10T02:21:05.609+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-10T02:21:05.665+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-10T02:21:06.988+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@25b91294
+2026-06-10T02:21:06.990+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-10T02:21:07.239+05:30  WARN 9136 --- [food-delivery-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10T02:21:07.259+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 9.6
@@ -26,16 +26,285 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-06-09T00:33:53.026+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-06-09T00:33:54.020+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-06-09T00:33:54.791+05:30 DEBUG 19916 --- [food-delivery-system] [restartedMain] c.b.f.security.JwtFilter                 : Filter 'jwtFilter' configured for use
-2026-06-09T00:33:55.438+05:30  WARN 19916 --- [food-delivery-system] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-06-09T00:33:55.525+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
-2026-06-09T00:33:55.525+05:30  WARN 19916 --- [food-delivery-system] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
-2026-06-09T00:33:56.924+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2026-06-09T00:33:56.999+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-06-09T00:33:57.019+05:30  INFO 19916 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Started FoodDeliverySystemApplication in 13.353 seconds (process running for 14.751)
-2026-06-09T00:34:05.865+05:30  INFO 19916 --- [food-delivery-system] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-09T00:34:05.865+05:30  INFO 19916 --- [food-delivery-system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-06-09T00:34:05.869+05:30  INFO 19916 --- [food-delivery-system] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-06-09T00:34:07.423+05:30  INFO 19916 --- [food-delivery-system] [http-nio-8080-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 895 ms
+2026-06-10T02:21:08.447+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-10T02:21:11.610+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10T02:21:11.985+05:30 DEBUG 9136 --- [food-delivery-system] [restartedMain] c.b.f.security.JwtFilter                 : Filter 'jwtFilter' configured for use
+2026-06-10T02:21:12.166+05:30  WARN 9136 --- [food-delivery-system] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\controller\MenuController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'menuService' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\service\MenuService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); No property 'categoryId' found for type 'MenuItem'
+2026-06-10T02:21:12.167+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10T02:21:12.170+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-10T02:21:12.201+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-10T02:21:12.204+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-10T02:21:12.222+05:30  INFO 9136 --- [food-delivery-system] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-10T02:21:12.251+05:30 ERROR 9136 --- [food-delivery-system] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\controller\MenuController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'menuService' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\service\MenuService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); No property 'categoryId' found for type 'MenuItem'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:991) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.balu.food_delivery_system.FoodDeliverySystemApplication.main(FoodDeliverySystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuService' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\service\MenuService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); No property 'categoryId' found for type 'MenuItem'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); No property 'categoryId' found for type 'MenuItem'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 37 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); No property 'categoryId' found for type 'MenuItem'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:120) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:104) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[na:na]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:434) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:355) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:361) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 47 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategoryId(java.lang.Long); No property 'categoryId' found for type 'MenuItem'
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:128) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:260) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:99) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:116) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	... 59 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'categoryId' found for type 'MenuItem'
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:455) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:431) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:384) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.util.ConcurrentReferenceHashMap$6.execute(ConcurrentReferenceHashMap.java:402) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.ConcurrentReferenceHashMap$Segment.doTask(ConcurrentReferenceHashMap.java:702) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.ConcurrentReferenceHashMap.doTask(ConcurrentReferenceHashMap.java:584) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.ConcurrentReferenceHashMap.computeIfAbsent(ConcurrentReferenceHashMap.java:396) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:366) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:344) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:259) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723) ~[na:na]
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:260) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:389) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723) ~[na:na]
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:390) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:101) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	... 63 common frames omitted
+
+2026-06-10T02:27:31.069+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Starting FoodDeliverySystemApplication using Java 25.0.1 with PID 21908 (C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes started by gpbal in C:\Users\gpbal\Downloads\food-delivery-system)
+2026-06-10T02:27:31.070+05:30 DEBUG 21908 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : Running with Spring Boot v3.5.14, Spring v6.2.18
+2026-06-10T02:27:31.072+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] c.b.f.FoodDeliverySystemApplication      : No active profile set, falling back to 1 default profile: "default"
+2026-06-10T02:27:31.132+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-06-10T02:27:31.133+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-06-10T02:27:32.342+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-10T02:27:32.442+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+2026-06-10T02:27:33.345+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-06-10T02:27:33.368+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-06-10T02:27:33.368+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.54]
+2026-06-10T02:27:33.446+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-06-10T02:27:33.446+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2313 ms
+2026-06-10T02:27:33.629+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-10T02:27:33.757+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.49.Final
+2026-06-10T02:27:33.811+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-06-10T02:27:34.307+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-10T02:27:34.359+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-06-10T02:27:35.061+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b41e3f8
+2026-06-10T02:27:35.061+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-06-10T02:27:35.184+05:30  WARN 21908 --- [food-delivery-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-06-10T02:27:35.219+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.6
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-10T02:27:36.539+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-10T02:27:36.730+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10T02:27:37.137+05:30 DEBUG 21908 --- [food-delivery-system] [restartedMain] c.b.f.security.JwtFilter                 : Filter 'jwtFilter' configured for use
+2026-06-10T02:27:37.320+05:30  WARN 21908 --- [food-delivery-system] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\controller\MenuController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'menuService' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\service\MenuService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); No property 'category' found for type 'MenuItem'
+2026-06-10T02:27:37.321+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-10T02:27:37.324+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-06-10T02:27:37.335+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-06-10T02:27:37.338+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2026-06-10T02:27:37.355+05:30  INFO 21908 --- [food-delivery-system] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-06-10T02:27:37.386+05:30 ERROR 21908 --- [food-delivery-system] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuController' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\controller\MenuController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'menuService' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\service\MenuService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); No property 'category' found for type 'MenuItem'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1228) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1194) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1130) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:991) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:628) ~[spring-context-6.2.18.jar:6.2.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.14.jar:3.5.14]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.14.jar:3.5.14]
+	at com.balu.food_delivery_system.FoodDeliverySystemApplication.main(FoodDeliverySystemApplication.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.14.jar:3.5.14]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'menuService' defined in file [C:\Users\gpbal\Downloads\food-delivery-system\food-delivery-system\target\classes\com\balu\food_delivery_system\service\MenuService.class]: Unsatisfied dependency expressed through constructor parameter 1: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); No property 'category' found for type 'MenuItem'
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'menuItemRepository' defined in com.balu.food_delivery_system.repository.MenuItemRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); No property 'category' found for type 'MenuItem'
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1708) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1653) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 37 common frames omitted
+Caused by: org.springframework.data.repository.query.QueryCreationException: Could not create query for public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); Reason: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); No property 'category' found for type 'MenuItem'
+	at org.springframework.data.repository.query.QueryCreationException.create(QueryCreationException.java:101) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:120) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.mapMethodsToQuery(QueryExecutorMethodInterceptor.java:104) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lambda$new$0(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[na:na]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.<init>(QueryExecutorMethodInterceptor.java:92) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:434) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:355) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:361) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.18.jar:6.2.18]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.18.jar:6.2.18]
+	... 47 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Failed to create query for method public abstract java.util.List com.balu.food_delivery_system.repository.MenuItemRepository.findByCategory_IdAndIsAvailableTrue(java.lang.Long); No property 'category' found for type 'MenuItem'
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:107) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:128) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$CreateIfNotFoundQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:260) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.JpaQueryLookupStrategy$AbstractQueryLookupStrategy.resolveQuery(JpaQueryLookupStrategy.java:99) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.lookupQuery(QueryExecutorMethodInterceptor.java:116) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	... 59 common frames omitted
+Caused by: org.springframework.data.mapping.PropertyReferenceException: No property 'category' found for type 'MenuItem'
+	at org.springframework.data.mapping.PropertyPath.<init>(PropertyPath.java:94) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:455) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.create(PropertyPath.java:431) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.lambda$from$0(PropertyPath.java:384) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.util.ConcurrentReferenceHashMap$6.execute(ConcurrentReferenceHashMap.java:402) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.ConcurrentReferenceHashMap$Segment.doTask(ConcurrentReferenceHashMap.java:702) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.ConcurrentReferenceHashMap.doTask(ConcurrentReferenceHashMap.java:584) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.util.ConcurrentReferenceHashMap.computeIfAbsent(ConcurrentReferenceHashMap.java:396) ~[spring-core-6.2.18.jar:6.2.18]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:366) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.mapping.PropertyPath.from(PropertyPath.java:344) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.Part.<init>(Part.java:81) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.lambda$new$0(PartTree.java:259) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723) ~[na:na]
+	at org.springframework.data.repository.query.parser.PartTree$OrPart.<init>(PartTree.java:260) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.lambda$new$0(PartTree.java:389) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:214) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:197) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:723) ~[na:na]
+	at org.springframework.data.repository.query.parser.PartTree$Predicate.<init>(PartTree.java:390) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103) ~[spring-data-commons-3.5.11.jar:3.5.11]
+	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:101) ~[spring-data-jpa-3.5.11.jar:3.5.11]
+	... 63 common frames omitted
+
