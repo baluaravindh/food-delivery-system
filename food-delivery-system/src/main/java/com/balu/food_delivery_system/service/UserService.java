@@ -51,6 +51,10 @@ public class UserService {
         // Save user to database
         User savedUser = userRepository.save(user);
 
+        emailService.sendWelcomeEmail(
+                savedUser.getEmail(),
+                savedUser.getFullName());
+
         log.info("User registered successfully: {}", savedUser.getEmail());
 
         return mapToDto(savedUser);

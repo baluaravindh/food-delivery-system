@@ -140,6 +140,9 @@ public class CartService {
         //   Step 3: Find cart by customerId
         //           if no cart → return empty CartResponseDTO
         //             with empty list and zero totals
+        Cart cart = cartRepository.findByUserId(user.getId())
+                .orElseThrow(() -> new ResourceNotFoundException(
+                        "User not found with id :" + user.getId()));
         //   Step 4: Map cart items to CartItemResponseDTO
         //   Step 5: Calculate totalAmount
         //           sum of (price × quantity) for each item
@@ -148,15 +151,16 @@ public class CartService {
         //           set items list
         //           set totalItems = items.size()
         //           set totalAmount
-        return cartRepository.findByUserId(user.getId())
-                .map(this::mapToDto)
-                .orElse(CartResponseDTO.builder()
-                        .userId(user.getId())
-                        .userFullName(user.getFullName())
-                        .items(new ArrayList<>())
-                        .totalItems(0)
-                        .totalAmount(BigDecimal.ZERO)
-                        .build());
+//        return cartRepository.findByUserId(user.getId())
+//                .map(this::mapToDto)
+//                .orElse(CartResponseDTO.builder()
+//                        .userId(user.getId())
+//                        .userFullName(user.getFullName())
+//                        .items(new ArrayList<>())
+//                        .totalItems(0)
+//                        .totalAmount(BigDecimal.ZERO)
+//                        .build());
+        return mapToDto(cart);
     }
 
     // METHOD 3: updateCartItem
@@ -273,6 +277,7 @@ public class CartService {
         //           cartItemRepository
         //           .deleteByCart_Id(cart.getId())
         cartItemRepository.deleteByCart_Id(cart.getId());
+        cartItemRepository.flush();
 
         //   Step 5: log.info "Cart cleared for: {}"
         log.info("Cart cleared for: {}", user.getEmail());

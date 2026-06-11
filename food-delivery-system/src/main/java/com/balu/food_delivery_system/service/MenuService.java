@@ -13,6 +13,8 @@ import com.balu.food_delivery_system.repository.MenuItemRepository;
 import com.balu.food_delivery_system.repository.RestaurantRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.CacheEvict;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -143,6 +145,7 @@ public class MenuService {
     //   - category exists
     //   - logged in user is restaurant owner
     // WHAT to return: MenuItemResponseDTO
+    @CacheEvict(value = "menuByRestaurant", key = "#dto.categoryId")
     @Transactional
     public MenuItemResponseDTO addMenuItem(MenuItemRequestDTO dto) {
 
@@ -213,6 +216,7 @@ public class MenuService {
     // WHO: any authenticated user
     // WHAT to validate: restaurant exists
     // WHAT to return: List<MenuItemResponseDTO>
+    @Cacheable(value = "MenuByRestaurant", key = "#restaurantId")
     public List<MenuItemResponseDTO> getMenuByRestaurant(Long restaurantId) {
 
         //   Step 1: Validate restaurant exists
@@ -234,6 +238,7 @@ public class MenuService {
     //   - item exists
     //   - logged in user is restaurant owner
     // WHAT to return: MenuItemResponseDTO
+    @CacheEvict(value = "menuByRestaurant", allEntries = true)
     @Transactional
     public MenuItemResponseDTO updateMenuItem(Long itemId, MenuItemRequestDTO dto) {
 
@@ -276,6 +281,7 @@ public class MenuService {
     //   - item exists
     //   - logged in user is owner
     // WHAT to return: MenuItemResponseDTO
+    @CacheEvict(value = "menuByRestaurant", allEntries = true)
     @Transactional
     public MenuItemResponseDTO toggleItemAvailability(Long itemId) {
 
