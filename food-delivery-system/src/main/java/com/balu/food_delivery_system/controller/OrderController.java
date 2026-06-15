@@ -83,9 +83,10 @@ public class OrderController {
     // PATCH /api/orders/{orderId}/cancel
     // Access: CUSTOMER only
     // Response: 200 + OrderResponseDTO
+
+    @PreAuthorize("hasAuthority('CUSTOMER')")
     @Operation(summary = "Cancel Order")
     @PatchMapping("/{orderId}/cancel")
-    @PreAuthorize("hasRole('CUSTOMER')")
     public ResponseEntity<OrderResponseDTO> cancelOrder(@PathVariable Long orderId){
         return ResponseEntity.ok(orderService.cancelOrder(orderId));
     }

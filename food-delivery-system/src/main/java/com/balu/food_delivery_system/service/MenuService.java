@@ -33,6 +33,7 @@ public class MenuService {
     private final MenuItemRepository menuItemRepository;
     private final MenuCategoryRepository menuCategoryRepository;
     private final FileUploadService fileUploadService;
+    private final S3ClientService s3ClientService;
 
     // METHOD 1: createCategory
     // WHO: RESTAURANT_OWNER only
@@ -337,15 +338,17 @@ public class MenuService {
 
         //   Step 4: Delete old image if exists
         if (item.getImageUrl() != null) {
-            fileUploadService.deleteFile(item.getImageUrl());
+//            fileUploadService.deleteFile(item.getImageUrl());
+            s3ClientService.deleteFile(item.getImageUrl());
         }
 
         //   Step 5: Upload new image
         //           String fileName = fileUploadServie.uploadFile(image)
-        String fileName = fileUploadService.uploadFile(image);
+//        String fileName = fileUploadService.uploadFile(image);
+        String fileUrl = s3ClientService.uploadFile(image, "menu-items");
 
         //   Step 6: item.setImageUrl(fileName)
-        item.setImageUrl(fileName);
+        item.setImageUrl(fileUrl);
 
         //   Step 7: Save and log
         MenuItem savedItem = menuItemRepository.save(item);

@@ -27,6 +27,7 @@ public class RestaurantService {
     private final RestaurantRepository restaurantRepository;
     private final UserRepository userRepository;
     private final FileUploadService fileUploadService;
+    private final S3ClientService s3ClientService;
 
     // WHO: RESTAURANT_OWNER only
     // WHAT to validate: owner doesn't already have a restaurant
@@ -292,16 +293,18 @@ public class RestaurantService {
         //           delete old file using
         //           fileUploadService.deleteFile(restaurant.getImageUrl())
         if (restaurant.getImageUrl() != null) {
-            fileUploadService.deleteFile(restaurant.getImageUrl());
+//            fileUploadService.deleteFile(restaurant.getImageUrl());
+            s3ClientService.deleteFile(restaurant.getImageUrl());
         }
 
         //   Step 5: Upload new file using
         //           fileUploadService.uploadFile(image)
         //           store returned fileName
-        String fileName = fileUploadService.uploadFile(image);
+//        String fileName = fileUploadService.uploadFile(image);
+        String fileUrl = s3ClientService.uploadFile(image, "restaurantImage");
 
         //   Step 6: restaurant.setImageUrl(fileName)
-        restaurant.setImageUrl(fileName);
+        restaurant.setImageUrl(fileUrl);
 
         //   Step 7: Save restaurant
         Restaurant savedRestaurant = restaurantRepository.save(restaurant);
