@@ -10,6 +10,7 @@ import com.balu.food_delivery_system.repository.RestaurantRepository;
 import com.balu.food_delivery_system.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -100,6 +101,7 @@ public class RestaurantService {
     // WHAT to validate: nothing
     // WHAT to do:
     // WHAT to return: List<RestaurantResponseDTO>
+    @Cacheable(value = "approvedRestaurants")
     public List<RestaurantResponseDTO> getApprovedRestaurants() {
 
         //   Step 1: log.info "Fetching approved restaurants"
