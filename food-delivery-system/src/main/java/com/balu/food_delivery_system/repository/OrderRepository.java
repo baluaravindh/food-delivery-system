@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 @Repository
-public interface OrderRepository extends JpaRepository<Order,Long> {
+public interface OrderRepository extends JpaRepository<Order, Long> {
 
     // Find all orders by customer id
     List<Order> findByUserId(Long userId);
@@ -22,8 +22,9 @@ public interface OrderRepository extends JpaRepository<Order,Long> {
     // Used by scheduler to auto cancel
     // @Query annotation needed here:
     @Query("SELECT o FROM Order o WHERE " +
-            "o.status = 'PENDING' AND " +
+            "o.status = :status AND " +
             "o.createdAt < :cutoffTime")
     List<Order> findPendingOrdersBefore(
-            @Param("cutoffTime") LocalDateTime cutoffTime);
+            @Param("cutoffTime") LocalDateTime cutoffTime,
+            @Param("status") Order.OrderStatus status);
 }
