@@ -60,6 +60,9 @@ public class Order {
     @UpdateTimestamp
     private LocalDateTime updatedAt;
 
+    @Column(name = "payment_order_id", nullable = true)
+    private String paymentOrderId;
+
     public enum OrderStatus {
         PENDING,
         CONFIRMED,
